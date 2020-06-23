@@ -11,12 +11,12 @@ version = project.mod_version
 group = project.maven_group
 
 dependencies {
-    minecraft "com.mojang:minecraft:1.16"
-    mappings "net.fabricmc:yarn:1.16+build.1:v2"
+    minecraft "com.mojang:minecraft:1.15.2"
+    mappings "net.fabricmc:yarn:1.15.2+build.17:v2"
     modImplementation "net.fabricmc:fabric-loader:0.8.8+build.202"
             
     //Fabric api
-    modImplementation "net.fabricmc.fabric-api:fabric-api:0.13.1+build.370-1.16"
+    modImplementation "net.fabricmc.fabric-api:fabric-api:0.13.1+build.316-1.15"
 }
 
 processResources {
